@@ -1,0 +1,224 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:  black;
+    
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.Fonte-texto{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#logo-menu{
+    color: aliceblue;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.text-white{
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.body-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-container{
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    border: solid 1px black;
+    background-color: black;
+}
+
+.content-container-1{
+    display: flex;
+    justify-content: space-around;
+    height: 65vh;
+    border: solid 1px black;
+    background-color: #f96d00;
+}
+
+.content-container-1-div-1{
+    margin: 30px;
+    width: 600px;
+    border: solid 1px black;
+}
+
+#AD-academia{
+    height: 556px;
+    width: 600px;
+}
+
+#Horarios{
+    height: 200px;
+    width: 398px;
+}
+
+#Endereco{
+    height: 200px;
+    width: 398px;
+}
+
+#h1-horario{
+    border-bottom: solid 2px black;
+}
+
+#h1-endereco{
+    border-bottom: solid 2px black;  
+}
+
+.content-container-1-div-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 30px;
+    width: 400px;
+    
+}
+
+.content-horarios{
+    border: solid 1px black;
+    height: 200px;
+}
+
+.content-endereco{
+    border: solid 1px black;
+    height: 200px;
+}
+
+
+.content-container-2{
+    height: 40vh;
+    border: solid 1px black;
+    background-color: black;
+}
+
+.titulo-passagem-container-2{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container-sobre-nos{
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    
+}
+
+.sobre-nos{
+    display: flex;
+    justify-content: center;
+}
+
+#saiba-mais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px aliceblue;
+    border-radius: 10px;
+    width: 110px;
+    height: 40px;
+}
+
+#saiba-mais:hover{
+ background-color: #f96d00;
+ color: aliceblue;
+}
+
+.passagem-titulo-planos{
+  display: flex;
+  justify-content: center;
+  background-color: #f96d00;
+}
+
+.content-container-3{
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    border: solid 1px black;
+    background-color: black;
+    
+}
+
+.container-box-planos{
+    display: flex;
+    margin-top: 50px;
+    height: 500px;
+    width: 1500px;
+    border: solid 1px black;
+}
+
+.ad-planos{
+    border: solid 1px black;
+    width: 750px;
+}
+
+.planos{
+    border: solid 1px black;
+    width: 750px;
+}
+
+#ad-plano{
+    height: 500px;
+    width: 750px;
+}
+
+#planos{
+    height: 500px;
+    width: 750px;
+}
+
+#h1-nosso-plano{
+    border-bottom: solid 1px black;
+}
+
+#buttom-inscrever{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+#buttom-inscrever:hover{
+  background-color: black;
+  color: aliceblue;
+}
+
+.inscrever-box{
+    background-color: #f96d00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.produtos-box{
+    color: aliceblue;
+    background-color: black;
+    margin-left: 70px;
+    height: 400px;
+}
+
+.titulo-produtos{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+#img-produtos{
+    position: absolute;
+}
+
+.img-box-produtos{
+    display: flex;
+    justify-content: center;
+}
